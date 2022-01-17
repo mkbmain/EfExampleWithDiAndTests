@@ -37,7 +37,12 @@ namespace SimpleRepo.Repo
             _dbContext.Set<T>().Add(item);
             return _dbContext.SaveChangesAsync();
         }
-        
+
+        public Task Update<T>(T item) where T : class
+        {
+            _dbContext.Set<T>().Update(item);
+            return _dbContext.SaveChangesAsync();
+        }
 
         public Task Delete<T>(T item) where T : class
         {

@@ -5,6 +5,7 @@ namespace SimpleRepo.Repo;
 
 public interface IRepo<db> where db : DbContext
 {
+    Task Update<T>(T item) where T : class;
     Task<List<T>> GetAll<T>(Expression<Func<T, bool>> func) where T : class;
     Task<List<T>> GetAll<T>() where T : class;
 
