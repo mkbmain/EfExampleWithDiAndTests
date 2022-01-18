@@ -11,7 +11,7 @@ using ServiceLayer.Service.Orders;
 namespace EntryPointConsoleApp
 {
     /// <summary>
-    /// just a example of DI really
+    /// just a example of DI really. this is not tests as its just a example (a test in its own right)
     /// </summary>
     class Program
     {
