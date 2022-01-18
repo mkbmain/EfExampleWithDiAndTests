@@ -5,14 +5,12 @@ using System.Linq.Expressions;
 using System.Threading.Tasks;
 using DataLayer;
 using Moq;
-using Option1ServiceLayer.Tests.ServiceTests.CustomerServiceTests;
-using ServiceLayer.Models;
 using ServiceLayer.Service.Orders;
 using Shouldly;
 using SimpleRepo.Repo;
 using Xunit;
 
-namespace Option1ServiceLayer.Tests.ServiceTests.OrderServiceTests;
+namespace Option1ServiceLayer.Tests.ServiceUnitTests.OrderServiceTests;
 
 public class GetOrdersForCustomerTests
 {

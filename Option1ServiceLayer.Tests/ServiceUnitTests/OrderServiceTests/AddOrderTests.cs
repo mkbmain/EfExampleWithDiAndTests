@@ -8,7 +8,7 @@ using ServiceLayer.Models;
 using Shouldly;
 using Xunit;
 
-namespace Option1ServiceLayer.Tests.ServiceTests.OrderServiceTests;
+namespace Option1ServiceLayer.Tests.ServiceUnitTests.OrderServiceTests;
 
 public class AddOrderTests
 {

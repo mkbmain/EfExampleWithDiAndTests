@@ -3,7 +3,7 @@ using Moq;
 using ServiceLayer.Service.Orders;
 using SimpleRepo.Repo;
 
-namespace Option1ServiceLayer.Tests.ServiceTests.OrderServiceTests;
+namespace Option1ServiceLayer.Tests.ServiceUnitTests.OrderServiceTests;
 
 public class OrderServiceFactory
 {

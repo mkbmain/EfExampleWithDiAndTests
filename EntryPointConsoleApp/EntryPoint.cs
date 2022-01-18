@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
+using DataLayer;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using ServiceLayer.IoC;
@@ -19,7 +20,7 @@ namespace EntryPointConsoleApp
             IConfiguration configuration = new ConfigurationBuilder().SetBasePath(AppContext.BaseDirectory)
                 .AddJsonFile("appsettings.json", optional: false)
                 .Build();
-
+            
             var serviceCollection = new ServiceCollection();
             ServiceLayerIoC.Add(serviceCollection, configuration);
 

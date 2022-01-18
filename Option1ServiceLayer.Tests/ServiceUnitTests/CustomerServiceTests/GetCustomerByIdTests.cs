@@ -9,7 +9,7 @@ using ServiceLayer.Models;
 using Shouldly;
 using Xunit;
 
-namespace Option1ServiceLayer.Tests.ServiceTests.CustomerServiceTests;
+namespace Option1ServiceLayer.Tests.ServiceUnitTests.CustomerServiceTests;
 
 public class GetCustomerByIdTests
 {
